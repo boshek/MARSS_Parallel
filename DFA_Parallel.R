@@ -153,7 +153,7 @@ model.data <-
             ## NULL Statement are a problem and this help identify where
             data.frame(R=R,
                        m=m, 
-                       logLik=ifelse(is.null(kemz$loglik),"NULL",kemz$loglik),
+                       logLik=ifelse(is.null(kemz$logLik),"NULL",kemz$logLik),
                        K=ifelse(is.null(kemz$num.params),"NULL",kemz$num.params),
                        AICc=ifelse(is.null(kemz$AICc),"NULL",kemz$AICc)
             )
