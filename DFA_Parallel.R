@@ -155,7 +155,9 @@ model.data <-
                        m=m, 
                        logLik=ifelse(is.null(kemz$logLik),"NULL",kemz$logLik),
                        K=ifelse(is.null(kemz$num.params),"NULL",kemz$num.params),
-                       AICc=ifelse(is.null(kemz$AICc),"NULL",kemz$AICc)
+                       AICc=ifelse(is.null(kemz$AICc),"NULL",kemz$AICc),
+                       numIter=ifelse(is.null(kemz$numIter),"NULL",kemz$numIter)
+                       
             )
             
           } # end foreach loop
