@@ -1,5 +1,5 @@
 ###########################################
-### Two objectives here
+### Two objectives here -
 ### Run MARSS in parallel
 ### Make diangnostic figure nice looking
 ###########################################
